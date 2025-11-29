@@ -22,7 +22,7 @@
                         <img src="resources/navigation.png" alt="Кнопка для раскрытия меню" width="22" height="20" class="img-fluid"> <!-- Бургер для мобильных устройств -->
                     </button> <!-- Кнопка -->
 
-                    <div class="collapse navbar-collapse ms-5 mt-2" id="navbar-content"><!-- Контейнер -->
+                    <div class="collapse navbar-collapse ms-5 mt-3" id="navbar-content"><!-- Контейнер -->
                         <div class="navbar-nav"><!-- Контейнер -->
                             <a class="nav-link link-navbar" href="#about-ide">About IDE</a> <!-- Ссылка -->
                             <a class="nav-link link-navbar" href="#artificial-intelligence">AI</a> <!-- Ссылка -->
@@ -37,14 +37,18 @@
             <hr> <!-- Линия-разделитель -->
 
             <div class="row ms-5"><!-- Строка -->
-                <div class="col-lg-7 col-sm-2 d-lg-inline-flex col-sm-6 pt-2 ps-5"><!-- Столбец -->
-                    <p class="fs-5 fw-bold ms-2">PyCharm</p> <!-- Абзац -->
-                    <p class="ms-2 bg-jetbrains-for-data rounded-3 px-2 py-1 ms-lg-3 me-sm-5">JetBrains for Data</p> <!-- Абзац -->
+                <div class="col-7 pt-2 ps-5"><!-- Столбец -->
+                    <div class="d-inline-flex"> <!-- Контейнер -->
+                        <p class="fs-5 fw-bold ms-2">PyCharm</p> <!-- Абзац -->
+                        <p class="ms-2 bg-jetbrains-for-data rounded-3 px-2 py-1 w-75">JetBrains for Data</p> <!-- Абзац -->
+                    </div>
                 </div>
 
-                <div class="col-lg-5 col-sm-6 mb-3"><!-- Столбец -->
-                    <a class="btn btn-transparent btn-request-a-demo border-white border-1 rounded-pill text-white px-5 py-2 ms-lg-5 mg-sm-2 mb-sm-2 mb-lg-0" href="https://www.jetbrains.com/pycharm/talk-to-expert/">Request a demo</a> <!-- Ссылка -->
-                    <a class="btn btn-donwload border-success border-1 rounded-pill text-white px-5 py-2 ms-lg-2 ms-sm-1" href="https://www.jetbrains.com/pycharm/download/">Download</a> <!-- Ссылка -->
+                <div class="col-5 mb-3"><!-- Столбец -->
+                    <div class="d-inline-flex"><!-- Контейнер -->
+                        <a class="btn btn-transparent btn-request-a-demo border-white border-1 rounded-pill text-white px-5 py-2 ms-5" href="https://www.jetbrains.com/pycharm/talk-to-expert/">Request a demo</a> <!-- Ссылка -->
+                        <a class="btn btn-donwload border-success border-1 rounded-pill text-white px-5 py-2 ms-2" href="https://www.jetbrains.com/pycharm/download/">Download</a> <!-- Ссылка -->
+                    </div>
                 </div>
             </div>
         </header>
@@ -70,23 +74,23 @@
 
             <section id="artificial-intelligence"><!-- Раздел с ИИ -->
                 <div class="bg-card-green mt-5 p-4 border-0 rounded-3"><!-- Контейнер -->
-                    <div class="d-flex justify-content-between mb-2"><!-- Контейнер -->
-                        <p class="fs-3 fw-bold pt-sm-2">PyCharm goes AI</p> <!-- Абзац -->
+                    <div class="d-flex justify-content-between"><!-- Контейнер -->
+                        <p class="fs-3 fw-bold">PyCharm goes AI</p> <!-- Абзац -->
                         <a class="btn btn-transparent btn-discover-more border-white border-1 rounded-pill text-white px-5 py-4" href="https://www.jetbrains.com/pycharm/features/ai/">Discover more</a> <!-- Ссылка -->
                     </div>
 
-                    <div><!-- Контейнер -->
-                        <p class="fs-4 pt-sm-2">Less routine, more coding joy.</p> <!-- Абзац -->
+                    <div class="mb-5"><!-- Контейнер -->
+                        <p class="fs-4">Less routine, more coding joy.</p> <!-- Абзац -->
                         <p class="fs-4">All refined JetBrains AI tools - right in your IDE, for free.</p> <!-- Абзац -->
                     </div>
 
-                    <div class="d-inline-flex row-cols-sm-2"><!-- Контейнер -->
-                        <p class="btn tags me-2 col-sm-7 col-lg-4">Unlimited Code Completition</p> <!-- Абзац -->
-                        <p class="btn tags me-2 col-sm-4 col-lg-2">Offline Mode</p> <!-- Абзац -->
-                        <p class="btn tags me-2 col-sm-4 col-lg-2">Latest AI Models</p> <!-- Абзац -->
-                        <p class="btn tags me-2 col-sm-7 col-lg-2">Codebase Context</p> <!-- Абзац -->
-                        <p class="btn tags me-2 col-sm-6 col-lg-2">Multi-File Edits</p> <!-- Абзац -->
-                        <p class="btn tags col-sm-5 col-lg-2">VCS Assistance</p> <!-- Абзац -->
+                    <div class="d-inline-flex"><!-- Контейнер -->
+                        <p class="btn tags me-2 col-4">Unlimited Code Completition</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-2">Offline Mode</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-2">Latest AI Models</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-2">Codebase Context</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-2">Multi-File Edits</p> <!-- Абзац -->
+                        <p class="btn tags col-2">VCS Assistance</p> <!-- Абзац -->
                     </div>
                 </div>
             </section>
@@ -99,7 +103,7 @@
 
                 <div class="card bg-card-green p-4 rounded-5"><!-- Контейнер -->
                     <div class="row"><!-- Строка -->
-                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
+                        <div class="col-5"><!-- Столбец -->
                             <p class="fs-3 fw-bold mb-4">Stop switching between tools</p> <!-- Абзац -->
                             <p class="fs-5">
                                 PyCharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch,
@@ -108,63 +112,79 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="col-lg-7 col-sm-12"><!-- Столбец -->
+                        <div class="col-7"><!-- Столбец -->
                             <div class="row ms-5"><!-- Строка -->
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50"><!-- Карточка -->
-                                    <img src="resources/python.png" alt="Логотип Python" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Python</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black"><!-- Карточка -->
+                                        <img src="resources/python.png" alt="Логотип Python" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Python</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mx-4"><!-- Карточка -->
-                                    <img src="resources/django.ico" alt="Логотип Django" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Django</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black mx-1"><!-- Карточка -->
+                                        <img src="resources/django.ico" alt="Логотип Django" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Django</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 me-4 mt-sm-4 mt-lg-0"><!-- Карточка -->
-                                    <img src="resources/flask.png" alt="Логотип Flask" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Flask</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black me-1"><!-- Карточка -->
+                                        <img src="resources/flask.png" alt="Логотип Flask" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Flask</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mt-sm-4 mt-lg-0"><!-- Карточка -->
-                                    <img src="resources/fastapi.png" alt="Логотип FastAPI" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">FastAPI</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black"><!-- Карточка -->
+                                        <img src="resources/fastapi.png" alt="Логотип FastAPI" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">FastAPI</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="row pt-4 ms-5"><!-- Строка -->
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mb-sm-4"><!-- Карточка -->
-                                    <img src="resources/jupyter.ico" alt="Логотип Jupyter" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Jupyter</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black"><!-- Карточка -->
+                                        <img src="resources/jupyter.ico" alt="Логотип Jupyter" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Jupyter</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mb-sm-4 mx-4"><!-- Карточка -->
-                                    <img src="resources/sql.png" alt="Логотип SQL" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">SQL</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black mx-1"><!-- Карточка -->
+                                        <img src="resources/sql.png" alt="Логотип SQL" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">SQL</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50 me-4"><!-- Карточка -->
-                                    <img src="resources/anaconda.png" alt="Логотип Anaconda" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Conda</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black me-1"><!-- Карточка -->
+                                        <img src="resources/anaconda.png" alt="Логотип Anaconda" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Conda</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-sm-5 card bg-black h-50"><!-- Карточка -->
-                                    <img src="resources/pandas.ico" alt="Логотип Pandas" class="card-img-top"> <!-- Изображение -->
-                                    <div class="card-body"><!-- Тело карточки -->
-                                        <p class="card-title">Pandas</p> <!-- Заголовок карточки -->
+                                <div class="col-3"><!-- Столбец -->
+                                    <div class="card bg-black"><!-- Карточка -->
+                                        <img src="resources/pandas.ico" alt="Логотип Pandas" class="card-img-top" width="50" height="120"> <!-- Изображение -->
+                                        <div class="card-body"><!-- Тело карточки -->
+                                            <p class="card-title">Pandas</p> <!-- Заголовок карточки -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -172,32 +192,36 @@
                     </div>
                 </div>
 
-                <div class="d-flex row-cols-lg-2 row-cols-sm-1 justify-content-between mt-lg-5 mt-sm-4"><!-- Контейнер -->
-                    <div class="card bg-card-green me-5 col-lg-6 col-sm-12"><!-- Карточка-->
-                        <img src="resources/rocket.png" alt="Ракета" class="mt-3 ms-4 mb-2" width=55 height=55> <!-- Изображение -->
+                <div class="row g-4 pt-4"><!-- Контейнер -->
+                    <div class="col-6">
+                        <div class="card bg-card-green w-100 p-3 rounded-5"><!-- Карточка-->
+                            <img src="resources/rocket.png" alt="Ракета" class="mt-3 ms-4 mb-2" width=55 height=55> <!-- Изображение -->
 
-                        <div class="card-body"><!-- Тело карточки -->
-                            <p class="card-title fs-3 fw-bold">Speed up your workflows</p> <!-- Абзац -->
-                            <p class="card-text fs-6 mt-4">
-                                PyCharm accelerates coding with exceptional Python and SQL support
-                                along with a powerful context-aware AI Assistant that generates complete code blocks and
-                                automates routine tasks. Whether you’re resolving Git merge conflicts or renaming a variable
-                                across multiple files, all it takes is a few clicks.
-                            </p> <!-- Абзац -->
+                            <div class="card-body"><!-- Тело карточки -->
+                                <p class="card-title fs-3 fw-bold">Speed up your workflows</p> <!-- Абзац -->
+                                <p class="card-text fs-6 mt-4">
+                                    PyCharm accelerates coding with exceptional Python and SQL support
+                                    along with a powerful context-aware AI Assistant that generates complete code blocks and
+                                    automates routine tasks. Whether you’re resolving Git merge conflicts or renaming a variable
+                                    across multiple files, all it takes is a few clicks.
+                                </p> <!-- Абзац -->
+                            </div>
                         </div>
                     </div>
 
-                    <div class="card bg-card-green mt-sm-4 mt-lg-0 col-lg-6 col-sm-12"><!-- Карточка -->
-                        <img src="resources/accept.png" alt="Галочка" class="mt-3 ms-3 mb-2" width=55 height=55> <!-- Изображение -->
+                    <div class="col-6">
+                        <div class="card bg-card-green w-100 p-3 rounded-5"><!-- Карточка -->
+                            <img src="resources/accept.png" alt="Галочка" class="mt-3 ms-3 mb-2" width=55 height=55> <!-- Изображение -->
 
-                        <div class="card-body"><!-- Тело карточки -->
-                            <p class="card-title fs-3 fw-bold">Deliver high-impact results</p> <!-- Абзац -->
-                            <p class="card-text fs-6 mt-4">
-                                PyCharm swiftly identifies and resolves code issues with intelligent refactoring, real-time
-                                error detection, quality tools, and a robust debugger. Write efficient code, instantly access
-                                data insights, and use AI Assistant to fix issues. Focus on coding while PyCharm handles the
-                                rest.
-                            </p> <!-- Абзац -->
+                            <div class="card-body"><!-- Тело карточки -->
+                                <p class="card-title fs-3 fw-bold">Deliver high-impact results</p> <!-- Абзац -->
+                                <p class="card-text fs-6 mt-4">
+                                    PyCharm swiftly identifies and resolves code issues with intelligent refactoring, real-time
+                                    error detection, quality tools, and a robust debugger. Write efficient code, instantly access
+                                    data insights, and use AI Assistant to fix issues. Focus on coding while PyCharm handles the
+                                    rest.
+                                </p> <!-- Абзац -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -207,16 +231,16 @@
                 <div class="mt-5" id="data-science"><!-- Контейнер -->
                     <p class="fs-1 fw-bold mt-5">Turn your data into insights</p> <!-- Абзац -->
 
-                    <div class="flex-sm-column"><!-- Строка -->
-                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
-                            <video class="w-100 h-100" src="resources/jupyter.mp4" autoplay></video>
+                    <div class="row"><!-- Строка -->
+                        <div class="col-6"><!-- Столбец -->
+                            <video class="w-100 h-100" src="resources/jupyter.mp4" autoplay muted></video>
                         </div>
 
-                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
+                        <div class="col-6"><!-- Столбец -->
                             <div class="card bg-card-green p-4"><!-- Карточка -->
                                 <img class="mb-4" src="resources/pycharm.png" alt="Логотип PyCharm" width=55 height=55> <!-- Изображение -->
 
-                                <div class=""><!-- Тело карточки -->
+                                <div class="card-body"><!-- Тело карточки -->
                                     <p class="card-title fs-3 fw-bold">Data science</p> <!-- Абзац -->
 
                                     <p class="card-text fs-6 mt-4">
@@ -238,8 +262,8 @@
                 <div class="mb-5" id="reviews"><!-- Контейнер -->
                     <p class="fs-1 fw-bold mt-5 mb-5">What professional developers and data <br> scientists say about PyCharm</p> <!-- Абзац -->
 
-                    <div class="row flex-nowrap overflow-auto"><!-- Контейнер с горизонтальной прокруткой -->
-                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                    <div class="row d-flex flex-nowrap overflow-auto"><!-- Контейнер с горизонтальной прокруткой -->
+                        <div class="card bg-card-green col-4 p-3"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/florian-dedov.jpg" alt="Florian Dedov" width=100 height=100> <!-- Изображение -->
@@ -261,7 +285,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                        <div class="card bg-card-blue col-4 p-3 mx-4"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/federico.jpg" alt="Florian Dedov" width=100 height=100> <!-- Изображение -->
@@ -287,7 +311,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                        <div class="card bg-card-green col-4 p-3"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/charlie-marsh.jpg" alt="Charlie Marsh" width=100 height=100> <!-- Изображение -->
@@ -308,7 +332,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                        <div class="card bg-card-blue col-4 p-3 mx-4"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/cory-althoff.jpg" alt="Cory Althoff" width=100 height=100> <!-- Изображение -->
@@ -329,7 +353,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                        <div class="card bg-card-green col-4 p-3"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/moritz-renftle.jpg" alt="Moritz Renftle" width=100 height=100> <!-- Изображение -->
@@ -350,7 +374,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                        <div class="card bg-card-blue col-4 p-3 mx-4"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/lysandre-debut.png" alt="Lysandre Debut" width=100 height=100> <!-- Изображение -->
@@ -371,7 +395,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                        <div class="card bg-card-green col-4 p-3"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/flavio-adamo-avatar.png" alt="Flavio Adamo" width=100 height=100> <!-- Изображение -->
@@ -390,7 +414,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                        <div class="card bg-card-blue col-4 p-3 mx-4"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/michael-kennedy.jpg" alt="Michael Kennedy" width=100 height=100> <!-- Изображение -->
@@ -412,7 +436,7 @@
                             </p> <!-- Абзац -->
                         </div>
 
-                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                        <div class="card bg-card-green col-4 p-3"><!-- Карточка -->
                             <div class="row"><!-- Строка -->
                                 <div class="col-4 pb-4"><!-- Столбец 1 -->
                                     <img class="rounded-circle" src="resources/nick-kononov.jpeg" alt="Nick Kononov" width=100 height=100> <!-- Изображение -->
@@ -441,7 +465,7 @@
         <footer class="bg-navigation-bar"><!-- Нижняя часть сайта -->
             <div class="container"><!-- Контейнер -->
                 <div class="row"><!-- Строка -->
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">AI</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/ai/">JetBrains AI</a><br><!-- Ссылка -->
@@ -452,7 +476,7 @@
                         <a class="link-footer" href="https://blog.jetbrains.com/ai/?_gl=1*19mtci*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">AI News</a><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Developer Tools</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/products/">All Products</a><br><!-- Ссылка -->
@@ -463,7 +487,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/toolbox-app/">Toolbox App</a><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Solutions</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/business/">Business</a><br><!-- Ссылка -->
@@ -474,7 +498,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/devops/">DevOps</a><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Initiatives</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/kotlin-ecosystem/">Kotlin</a><br><!-- Ссылка -->
@@ -484,7 +508,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/mps/">MPS</a><br><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Education</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/academy/student-pack/">Students</a><br><!-- Ссылка -->
@@ -495,7 +519,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/education/university-programs/">University Programs</a><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Store</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/store/">Plans and Pricing</a><br><!-- Ссылка -->
@@ -507,7 +531,7 @@
                 </div>
 
                 <div class="row"><!-- Строка -->
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Support</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/support/">Technical Support</a><br><!-- Ссылка -->
@@ -516,7 +540,7 @@
                         <a class="link-footer" href="https://account.jetbrains.com/?_gl=1*b24ulz*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">JetBrains Account</a><br><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Resources</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://blog.jetbrains.com/?_gl=1*127npmu*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">Blog</a><br><!-- Ссылка -->
@@ -528,7 +552,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/company/brand/desktop-art/">Desktop Art</a><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Community</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/community/user-groups/">User Groups</a><br><!-- Ссылка -->
@@ -537,7 +561,7 @@
                         <a class="link-footer" href="https://www.jetbrains.com/community/content-creators/">Content Creators</a><br><!-- Ссылка -->
                     </div>
 
-                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                    <div class="col-2 mt-5"><!-- Столбец -->
                         <p class="fw-bold">Company</p><!-- Абзац -->
 
                         <a class="link-footer" href="https://www.jetbrains.com/company/">About</a><br><!-- Ссылка -->
