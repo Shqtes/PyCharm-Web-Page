@@ -1,0 +1,572 @@
+<!DOCTYPE html> <!-- Задать стандарт HTML5 -->
+<html lang="ru"><!-- Задать язык страницы -->
+    <head>
+        <title>PyCharm: The only Python IDE you need</title> <!-- Задать заголовок вкладки браузера -->
+        <meta charset="utf-8"> <!-- Задать кодировку символов -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Настроить правильное отображение содержимого -->
+        <meta name="description" content="Это страница о среде разработки PyCharm"> <!-- Информация о сайте для поисковых систем -->
+        <link rel="shortcut icon" type="image/x-icon" href="resources/jetbrains_icon.png"> <!-- Установить иконку для вкладки браузера -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> <!-- Подключить CSS-модуль фреймворка Bootstrap -->
+        <link href="css/style.css" rel="stylesheet"> <!-- Подключить свой CSS-модуль -->
+    </head>
+
+    <body class="bg-black text-white">
+        <header class="bg-navigation-bar"><!-- Шапка сайта -->
+            <nav class="navbar navbar-expand-lg ms-5"><!-- Контейнер для навигационной панели -->
+                <div class="container-fluid"><!-- Контейнер, который расстягивается на весь экран -->
+                    <a class="navbar-brand link-light mx-5 fw-bold mt-2" href="https://www.jetbrains.com">
+                        <img src="resources/jetbrains_white.png" alt="Логотип PyCharm" class="me-2" height=35> <!-- Изображение -->
+                    </a> <!-- Ссылка -->
+
+                    <button class="navbar-toggler pt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключатель навигации">
+                        <img src="resources/navigation.png" alt="Кнопка для раскрытия меню" width="22" height="20" class="img-fluid"> <!-- Бургер для мобильных устройств -->
+                    </button> <!-- Кнопка -->
+
+                    <div class="collapse navbar-collapse ms-5 mt-2" id="navbar-content"><!-- Контейнер -->
+                        <div class="navbar-nav"><!-- Контейнер -->
+                            <a class="nav-link link-navbar" href="#about-ide">About IDE</a> <!-- Ссылка -->
+                            <a class="nav-link link-navbar" href="#artificial-intelligence">AI</a> <!-- Ссылка -->
+                            <a class="nav-link link-navbar" href="#integrations">Integrations</a> <!-- Ссылка -->
+                            <a class="nav-link link-navbar" href="#data-science">Data Science</a> <!-- Ссылка -->
+                            <a class="nav-link link-navbar" href="#reviews">Reviews</a> <!-- Ссылка -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <hr> <!-- Линия-разделитель -->
+
+            <div class="row ms-5"><!-- Строка -->
+                <div class="col-lg-7 col-sm-2 d-lg-inline-flex col-sm-6 pt-2 ps-5"><!-- Столбец -->
+                    <p class="fs-5 fw-bold ms-2">PyCharm</p> <!-- Абзац -->
+                    <p class="ms-2 bg-jetbrains-for-data rounded-3 px-2 py-1 ms-lg-3 me-sm-5">JetBrains for Data</p> <!-- Абзац -->
+                </div>
+
+                <div class="col-lg-5 col-sm-6 mb-3"><!-- Столбец -->
+                    <a class="btn btn-transparent btn-request-a-demo border-white border-1 rounded-pill text-white px-5 py-2 ms-lg-5 mg-sm-2 mb-sm-2 mb-lg-0" href="https://www.jetbrains.com/pycharm/talk-to-expert/">Request a demo</a> <!-- Ссылка -->
+                    <a class="btn btn-donwload border-success border-1 rounded-pill text-white px-5 py-2 ms-lg-2 ms-sm-1" href="https://www.jetbrains.com/pycharm/download/">Download</a> <!-- Ссылка -->
+                </div>
+            </div>
+        </header>
+
+        <main class="container"><!-- Основное содержимое сайта -->
+            <section><!-- Раздел с информацией об IDE -->
+                <div class="mt-5"><!-- Контейнер -->
+                    <div class="row"><!-- Строка -->
+                        <div class="col-8" id="about-ide"><!-- Столбец -->
+                            <p class="fs-2 fw-bold mb-4 mt-5">PyCharm</p> <!-- Абзац -->
+                            <p class="fs-1 fw-bold">The only Python IDE <br> you need</p> <!-- Абзац -->
+                            <p class="fs-3">Build for web, data, and AI/ML professionals. Supercharged <br> with an AI-enchanced IDE experience.</p> <!-- Абзац -->
+                            <a class="btn btn-donwload border-1 border-success rounded-pill text-white px-5 py-2 mb-3 mt-4" href="https://www.jetbrains.com/pycharm/download/">Download</a> <!-- Ссылка -->
+                            <p class="fs-6 text-secondary">Free forever, plus one month of Pro included</p> <!-- Абзац -->
+                        </div>
+
+                        <div class="col-4"><!-- Столбец -->
+                            <img class="mt-5 ms-5" src=resources/pycharm.png alt="Логотип PyCharm" width=150 height=150> <!-- Изображение -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="artificial-intelligence"><!-- Раздел с ИИ -->
+                <div class="bg-card-green mt-5 p-4 border-0 rounded-3"><!-- Контейнер -->
+                    <div class="d-flex justify-content-between mb-2"><!-- Контейнер -->
+                        <p class="fs-3 fw-bold pt-sm-2">PyCharm goes AI</p> <!-- Абзац -->
+                        <a class="btn btn-transparent btn-discover-more border-white border-1 rounded-pill text-white px-5 py-4" href="https://www.jetbrains.com/pycharm/features/ai/">Discover more</a> <!-- Ссылка -->
+                    </div>
+
+                    <div><!-- Контейнер -->
+                        <p class="fs-4 pt-sm-2">Less routine, more coding joy.</p> <!-- Абзац -->
+                        <p class="fs-4">All refined JetBrains AI tools - right in your IDE, for free.</p> <!-- Абзац -->
+                    </div>
+
+                    <div class="d-inline-flex row-cols-sm-2"><!-- Контейнер -->
+                        <p class="btn tags me-2 col-sm-7 col-lg-4">Unlimited Code Completition</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-sm-4 col-lg-2">Offline Mode</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-sm-4 col-lg-2">Latest AI Models</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-sm-7 col-lg-2">Codebase Context</p> <!-- Абзац -->
+                        <p class="btn tags me-2 col-sm-6 col-lg-2">Multi-File Edits</p> <!-- Абзац -->
+                        <p class="btn tags col-sm-5 col-lg-2">VCS Assistance</p> <!-- Абзац -->
+                    </div>
+                </div>
+            </section>
+
+            <section><!-- Раздел с интеграциями -->
+                <div class="mt-5" id="integrations"><!-- Контейнер -->
+                    <p class="fs-1 fw-bold">Focus on code and data.</p> <!-- Абзац -->
+                    <p class="fs-1 fw-bold python-will-take-care">PyCharm will take care of the rest.</p> <!-- Абзац -->
+                </div>
+
+                <div class="card bg-card-green p-4 rounded-5"><!-- Контейнер -->
+                    <div class="row"><!-- Строка -->
+                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
+                            <p class="fs-3 fw-bold mb-4">Stop switching between tools</p> <!-- Абзац -->
+                            <p class="fs-5">
+                                PyCharm offers out-of-the-box support for Python, databases, Jupyter, Git, Conda, PyTorch,
+                                TensorFlow, Hugging Face, Django, Flask, FastAPI, and more. With the seamless integration of its
+                                context-aware AI Assistant, you can get your work started quickly and make progress more efficiently. PyCharm equips you with everything you need for all sorts of projects, from web development and data pipelines to ML model prototyping and data analysis.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="col-lg-7 col-sm-12"><!-- Столбец -->
+                            <div class="row ms-5"><!-- Строка -->
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50"><!-- Карточка -->
+                                    <img src="resources/python.png" alt="Логотип Python" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Python</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mx-4"><!-- Карточка -->
+                                    <img src="resources/django.ico" alt="Логотип Django" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Django</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 me-4 mt-sm-4 mt-lg-0"><!-- Карточка -->
+                                    <img src="resources/flask.png" alt="Логотип Flask" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Flask</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mt-sm-4 mt-lg-0"><!-- Карточка -->
+                                    <img src="resources/fastapi.png" alt="Логотип FastAPI" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">FastAPI</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row pt-4 ms-5"><!-- Строка -->
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mb-sm-4"><!-- Карточка -->
+                                    <img src="resources/jupyter.ico" alt="Логотип Jupyter" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Jupyter</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 mb-sm-4 mx-4"><!-- Карточка -->
+                                    <img src="resources/sql.png" alt="Логотип SQL" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">SQL</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50 me-4"><!-- Карточка -->
+                                    <img src="resources/anaconda.png" alt="Логотип Anaconda" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Conda</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-5 card bg-black h-50"><!-- Карточка -->
+                                    <img src="resources/pandas.ico" alt="Логотип Pandas" class="card-img-top"> <!-- Изображение -->
+                                    <div class="card-body"><!-- Тело карточки -->
+                                        <p class="card-title">Pandas</p> <!-- Заголовок карточки -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex row-cols-lg-2 row-cols-sm-1 justify-content-between mt-lg-5 mt-sm-4"><!-- Контейнер -->
+                    <div class="card bg-card-green me-5 col-lg-6 col-sm-12"><!-- Карточка-->
+                        <img src="resources/rocket.png" alt="Ракета" class="mt-3 ms-4 mb-2" width=55 height=55> <!-- Изображение -->
+
+                        <div class="card-body"><!-- Тело карточки -->
+                            <p class="card-title fs-3 fw-bold">Speed up your workflows</p> <!-- Абзац -->
+                            <p class="card-text fs-6 mt-4">
+                                PyCharm accelerates coding with exceptional Python and SQL support
+                                along with a powerful context-aware AI Assistant that generates complete code blocks and
+                                automates routine tasks. Whether you’re resolving Git merge conflicts or renaming a variable
+                                across multiple files, all it takes is a few clicks.
+                            </p> <!-- Абзац -->
+                        </div>
+                    </div>
+
+                    <div class="card bg-card-green mt-sm-4 mt-lg-0 col-lg-6 col-sm-12"><!-- Карточка -->
+                        <img src="resources/accept.png" alt="Галочка" class="mt-3 ms-3 mb-2" width=55 height=55> <!-- Изображение -->
+
+                        <div class="card-body"><!-- Тело карточки -->
+                            <p class="card-title fs-3 fw-bold">Deliver high-impact results</p> <!-- Абзац -->
+                            <p class="card-text fs-6 mt-4">
+                                PyCharm swiftly identifies and resolves code issues with intelligent refactoring, real-time
+                                error detection, quality tools, and a robust debugger. Write efficient code, instantly access
+                                data insights, and use AI Assistant to fix issues. Focus on coding while PyCharm handles the
+                                rest.
+                            </p> <!-- Абзац -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section><!-- Раздел с Data Science -->
+                <div class="mt-5" id="data-science"><!-- Контейнер -->
+                    <p class="fs-1 fw-bold mt-5">Turn your data into insights</p> <!-- Абзац -->
+
+                    <div class="flex-sm-column"><!-- Строка -->
+                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
+                            <video class="w-100 h-100" src="resources/jupyter.mp4" autoplay></video>
+                        </div>
+
+                        <div class="col-lg-5 col-sm-12"><!-- Столбец -->
+                            <div class="card bg-card-green p-4"><!-- Карточка -->
+                                <img class="mb-4" src="resources/pycharm.png" alt="Логотип PyCharm" width=55 height=55> <!-- Изображение -->
+
+                                <div class=""><!-- Тело карточки -->
+                                    <p class="card-title fs-3 fw-bold">Data science</p> <!-- Абзац -->
+
+                                    <p class="card-text fs-6 mt-4">
+                                        Build data pipelines, analyze data, and prototype and deploy
+                                        ML models using PyCharm’s extensive support for Python, as well as scientific
+                                        libraries, interactive Jupyter notebooks, Anaconda, rich SQL and NoSQL databases,
+                                        and more.
+                                    </p> <!-- Абзац -->
+
+                                    <a class="btn btn-learn-more border-1 border-white rounded-pill text-black px-4 py-2" href="https://www.jetbrains.com/pycharm/data-science/">Learn more</a> <!-- Ссылка -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section><!-- Раздел с отзывами -->
+                <div class="mb-5" id="reviews"><!-- Контейнер -->
+                    <p class="fs-1 fw-bold mt-5 mb-5">What professional developers and data <br> scientists say about PyCharm</p> <!-- Абзац -->
+
+                    <div class="row flex-nowrap overflow-auto"><!-- Контейнер с горизонтальной прокруткой -->
+                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/florian-dedov.jpg" alt="Florian Dedov" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Florian Dedov <br> <abbr class="fw-normal">from NeuralNine</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                The JetBrains IDEs are by far my favorite development environments. Especially when
+                                working on large projects or code bases, PyCharm makes my life much easier. It
+                                integrates so many useful tools and handles so many different file types in one
+                                single environment. Bonus points for the IdeaVim plugin, which works surprisingly
+                                well and also allows for enabling popular extensions like vim-commentary.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/federico.jpg" alt="Florian Dedov" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Federico <br> <abbr class="fw-normal">from @Indently</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                I’ve always been a fan of JetBrains IDEs: the UI is incredibly intuitive, and
+                                the code completion, refactoring, and live template features make my daily
+                                programming routine actually enjoyable!
+                            </p> <!-- Абзац -->
+
+                            <p>
+                                I use PyCharm to teach programming to over 130K students, and it’s the first IDE
+                                that I would recommend to anyone that wants to program using Python. It’s
+                                powerful, easy to use, and extremely intuitive.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/charlie-marsh.jpg" alt="Charlie Marsh" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Charlie Marsh <br> <abbr class="fw-normal">Founder of Astral, creator of Ruff</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                I’ve used PyCharm for years, and it’s always felt like a superpower. As a
+                                maintainer working across a number of complex projects, PyCharm enables me to
+                                refactor with confidence, navigate across the stack, and stay focused on the
+                                code. With PyCharm, the IDE is never the limit.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/cory-althoff.jpg" alt="Cory Althoff" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Cory Althoff <br> <abbr class="fw-normal">SVP, Software Developer</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                PyCharm is my favorite IDE. From its beautiful UI to features that make my life as a coder
+                                easier, like full-line code completion and its support of Jupyter notebooks, I can’t imagine
+                                life without it. I’ve been using PyCharm for over ten years, and I’m impressed with how it
+                                keeps getting better and better!
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/moritz-renftle.jpg" alt="Moritz Renftle" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Moritz Renftle<br> <abbr class="fw-normal">Data Scientist, Scieneers GmbH</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                PyCharm has a unique set of features compared to other IDEs: reliable and comprehensive
+                                refactoring capability and support for advanced run configurations. Furthermore, I like the
+                                “cockpit feeling“ of PyCharm. It’s a centralized space that allows me quick access to all the
+                                tools necessary for my work.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/lysandre-debut.png" alt="Lysandre Debut" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Lysandre Debut <br> <abbr class="fw-normal">Chief Open-Source Officer at Hugging Face</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                As a Hugging Face user, even more so than as a Hugging Face team member, the HF integration in
+                                PyCharm has been instrumental in speeding up the machine learning workflows I’ve worked on.
+                                As a result, I find myself keeping my focus in the IDE, with less context switching during
+                                development.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/flavio-adamo-avatar.png" alt="Flavio Adamo" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Flavio Adamo<br> <abbr class="fw-normal">Proud co-creator of http://codeishot.com</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                As a Django developer, PyCharm was one of the best investments I’ve ever made. I was skeptical
+                                at first, but after experiencing it, I can’t imagine going back.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-blue col-lg-4 col-sm-8 p-3 mx-4"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/michael-kennedy.jpg" alt="Michael Kennedy" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Michael Kennedy <br> <abbr class="fw-normal">Python enthusiast and entrepreneur</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                There is only one tool that I use day to day that fundamentally changes how I create and maintain
+                                apps in Python, and that's PyCharm. There is simply no other editor or IDE that understands the
+                                entire structure of my application like PyCharm does. People may have heard me go on and on
+                                about how I love PyCharm, but it's genuine. PyCharm is the one tool I will not show up to write
+                                code without.
+                            </p> <!-- Абзац -->
+                        </div>
+
+                        <div class="card bg-card-green col-lg-4 col-sm-8 p-3"><!-- Карточка -->
+                            <div class="row"><!-- Строка -->
+                                <div class="col-4 pb-4"><!-- Столбец 1 -->
+                                    <img class="rounded-circle" src="resources/nick-kononov.jpeg" alt="Nick Kononov" width=100 height=100> <!-- Изображение -->
+                                </div>
+
+                                <div class="col-7 mt-4"><!-- Столбец 2 -->
+                                    <div><!-- Контейнер -->
+                                        <p class="fw-bold">Nick Kononov<br> <abbr class="fw-normal">Proud co-creator of http://codeishot.com</abbr></p> <!-- Абзац -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>
+                                I love PyCharm's batteries-included approach. Instead of spending time endlessly configuring a
+                                text editor to act like an IDE, I just fire and forget PyCharm. Its incredible code refactoring
+                                functionality is like no other. I spend more time refactoring and editing existing code, and
+                                PyCharm allows me to do that with just a few keybinds. I believe it’s the tool if you want to
+                                get things done right away!
+                            </p> <!-- Абзац -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-navigation-bar"><!-- Нижняя часть сайта -->
+            <div class="container"><!-- Контейнер -->
+                <div class="row"><!-- Строка -->
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">AI</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/ai/">JetBrains AI</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/ai-assistant/">AI Assistant</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/junie/">Junie</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/ai-ides/">AI in IDEs</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/ide-services/ai-enterprise/">AI Enterprise</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://blog.jetbrains.com/ai/?_gl=1*19mtci*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">AI News</a><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Developer Tools</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/products/">All Products</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/ides/">IDEs</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/products/#tech=dotnet">.NET and Visual Studio</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/products/#type=team">Team Tools</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://plugins.jetbrains.com/?_gl=1*7b4mnl*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">Plugin Marketplace</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/toolbox-app/">Toolbox App</a><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Solutions</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/business/">Business</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/jetbrains-for-data/">Data</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/ide-services/">IDE Services</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/remote-development/">Remote Development</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/gamedev/">Game Development</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/devops/">DevOps</a><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Initiatives</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/kotlin-ecosystem/">Kotlin</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/opensource/">Open Source</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/research/">JetBrains Research</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/mps/">MPS</a><br><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Education</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/academy/student-pack/">Students</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/academy/teacher-pack/">Teachers</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/academy/bootcamps/">Bootcamps</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/academy/organizations/">Teams</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://academy.jetbrains.com/?_gl=1*fuiyc4*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">Course Catalog</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/education/university-programs/">University Programs</a><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Store</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/store/">Plans and Pricing</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/all/">All Products Pack</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/dotnet/">dotUltimate</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/partners/">Partners and Resellers</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/customers/">Customers and Awards</a><br><!-- Ссылка -->
+                    </div>
+                </div>
+
+                <div class="row"><!-- Строка -->
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Support</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/support/">Technical Support</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/support/sales/">Contact Sales</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/help/">Documentation</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://account.jetbrains.com/?_gl=1*b24ulz*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">JetBrains Account</a><br><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Resources</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://blog.jetbrains.com/?_gl=1*127npmu*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">Blog</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/resources/eap/">Early Access</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/conferences/">Events and Livestreams</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/resources/newsletters/">Newsletter</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/resources/industry-reports/">Industry Reports</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/pages/inspectopedia-by-jetbrains/">Inspectopedia</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/brand/desktop-art/">Desktop Art</a><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Community</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/community/user-groups/">User Groups</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/community/opensource/">Open-Source Partnership</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/community/dev-recognition/">Developer Recognition</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/community/content-creators/">Content Creators</a><br><!-- Ссылка -->
+                    </div>
+
+                    <div class="col-lg-2 col-sm-6 mt-5"><!-- Столбец -->
+                        <p class="fw-bold">Company</p><!-- Абзац -->
+
+                        <a class="link-footer" href="https://www.jetbrains.com/company/">About</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/contacts/#headquarters-international-sales">Contacts</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/careers/apply/">Careers</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrains.com/company/brand/">Brand Assets</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://www.jetbrainsmerchandise.com/?utm_campaign=link&utm_medium=footer&utm_source=jetbrainscom">Merchandise</a><br><!-- Ссылка -->
+                        <a class="link-footer" href="https://trust-center.jetbrains.com/?_gl=1*1618ilh*_gcl_aw*R0NMLjE3NjQzNjIzMzkuQ2p3S0NBaUFyYVhKQmhCSkVpd0FqejdNWmNBd0JLUGVqTkRzVjRlcndOSU5MUDVsV0lkSE5GTkRTdlIyZG1fcUpKSERBbDhvU2F5Zmx4b0NTMlVRQXZEX0J3RQ..*_gcl_au*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*FPAU*MjM0NDI2OTc2LjE3NjM4MDQwMDk.*_ga*NTcxNDY1NjcxLjE3NjM4MDQwMDc.*_ga_9J976DJZ68*czE3NjQ0Mzg3MjQkbzEwJGcxJHQxNzY0NDQ3MjM4JGo2MCRsMCRoMA..">Trust Center</a><br><!-- Ссылка -->
+                    </div>
+                </div>
+
+                <br><!-- Перенести курсор на новую строку -->
+                <br><!-- Перенести курсор на новую строку -->
+                <hr><!-- Линия-разделитель -->
+                <br><!-- Перенести курсор на новую строку -->
+
+                <div class="d-flex justify-content-between"><!-- Контейнер -->
+                    <div><!-- Контейнер -->
+                        <p>Курчин Михаил ТИП-51 2025</p><!-- Абзац -->
+                        <p class="python-will-take-care">@shqtes</p><!-- Абзац -->
+                    </div>
+
+                    <div><!-- Контейнер -->
+                        <a href="https://t.me/shqtes"><img src="resources/telegram.webp" alt="Телеграм @shqtes" width="50" height="50"></a><!-- Ссылка -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> &lt;!&ndash; Подключить JS-модуль&ndash;&gt;-->
+    </body>
+</html>

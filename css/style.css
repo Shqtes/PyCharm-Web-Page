@@ -1,0 +1,89 @@
+/* Стиль для кнопки "Request a demo" при наведении */
+.btn-request-a-demo:hover {
+    background: #303033;    /* Зеленый цвет фона */
+    color: white;           /* Белый цвет текста */
+/*    border-color: transparent !important; !* Прозрачная граница *!*/
+}
+
+/* Стиль для фона панели навигации */
+.bg-navigation-bar {
+    background: #19191c; /* Цвет фона */
+}
+
+/* Стиль для фона тега jetbrains for data */
+.bg-jetbrains-for-data {
+    background: #303033; /* Цвет фона */
+    color: #c1c1c2; /* Цвет текста */
+}
+
+/* Стиль для кнопки download*/
+.btn-donwload {
+    background:#058484; /* Фон кнопки */
+
+    /* Псевдокласс наведения курсора */
+    &:hover {
+        opacity: 85%; /* Прозрачность */
+    }
+}
+
+/* Стиль для текста в навигационной панели */
+.link-navbar {
+    color: #c1c1c2; /* Цвет текста */
+
+    /* Псевдокласс наведения курсора */
+    &:hover {
+        color: white; /* Цвет текста */
+    }
+}
+
+/* Стиль для текста в нижней части сайта */
+.link-footer {
+    color: #c1c1c2; /* Цвет текста */
+    text-decoration: none; /* Подчёркивание ссылки */
+
+    /* Псевдокласс наведения курсора */
+    &:hover {
+        color: white; /* Цвет текста */
+        text-decoration: white; /* Подчёркивание ссылки */
+    }
+}
+
+/* Стиль для тегов */
+.tags {
+    background:#058484; /* Цвет фона */
+    color: white; /* Цвет текста */
+}
+
+/* Стиль зеленых карточек */
+.bg-card-green {
+    background:#03191a; /* Цвет фона */
+}
+
+/* Стиль синих карточек */
+.bg-card-blue {
+    background: #08272f ; /* Цвет фона */
+}
+
+/* Стиль для лозунгов */
+.python-will-take-care {
+    color: #20b99f; /* Цвет текста */
+}
+
+/* Стиль для кнопки discover more*/
+.btn-discover-more {
+    /* Псевдокласс наведения курсора*/
+    &:hover {
+        background: #1d3031; /* Цвет фона */
+        color: white; /* Цвет текста */
+    }
+}
+
+/* Стиль для кнопки learn more*/
+.btn-learn-more {
+    background: white; /* Цвет фона*/
+
+    /* Псевдокласс наведения курсора */
+    &:hover {
+        opacity: 85%; /* Прозрачность */
+    }
+}
